@@ -75,9 +75,9 @@ label 				 {
   opacity:0.5;
 }
 .doge:focus ~ .highlight {
-  animation:inputHighlighter 0.3s ease;
+  animation:.dogeHighlighter 0.3s ease;
 }
-@keyframes inputHighlighter {
+@keyframes .dogeHighlighter {
 	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
 }
